@@ -6,7 +6,6 @@ import pandas as pd
 import pickle
 
 pipe = pickle.load(open('pipe.pkl','rb'))
-df = pickle.load(open('df.pkl','rb'))
 ss = pickle.load(open('scaler.pkl','rb'))
 
 cols = ['Brand', 'RAM_MB', 'Internal_Memory_GB', 'Os_Type', 'Clock_Speed_GHz',
